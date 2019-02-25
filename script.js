@@ -98,7 +98,7 @@ function test_victoire() {
         // Enfin, le cas de l'égalité. Si au tour 9 rien n'est aligné, alors nous avons affaire à une égalité.
         if (nb_tour == 9) {
             document.getElementById("message").innerHTML = "Egalité";
-
+            document.getElementById("message").style.color="gold";
         }
 
     }
